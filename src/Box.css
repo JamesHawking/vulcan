@@ -1,0 +1,9 @@
+.box {
+  margin: 10px 15px;
+  -ms-flex: 0 1 30%;
+  flex: 0 1 30%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  will-change: transform, box-shadow;
+  background-color: white !important;
+  height: 100%;
+}

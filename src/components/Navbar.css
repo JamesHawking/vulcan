@@ -1,0 +1,32 @@
+.navbar {
+  margin: 10px 15px 10px 47px;
+}
+
+.search {
+  width: 100%;
+  border: none;
+  max-width: 600px;
+  border-radius: 6px;
+  padding: 12px 24px;
+}
+
+.search-container {
+  width: 200px;
+  position: relative;
+  margin-left: 25px;
+  display: flex;
+  transition: 700ms ease;
+}
+
+.search-container:hover {
+  width: 500px;
+}
+
+.align {
+  align-self: center;
+}
+
+.position {
+  position: absolute;
+  right: 6px;
+}

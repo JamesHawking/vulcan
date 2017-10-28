@@ -1,0 +1,11 @@
+.flex {
+  display: flex;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+*:focus {
+  outline: none;
+}
