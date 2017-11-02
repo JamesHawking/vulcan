@@ -10,8 +10,12 @@
   padding: 12px 24px;
 }
 
+.search:focus {
+  width: 500px;
+}
+
 .search-container {
-  width: 200px;
+  width: 350px;
   position: relative;
   margin-left: 25px;
   display: flex;
@@ -19,6 +23,10 @@
 }
 
 .search-container:hover {
+  width: 500px;
+}
+
+.search-container:focus {
   width: 500px;
 }
 

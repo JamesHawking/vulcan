@@ -3,9 +3,6 @@
   border-radius: 6px;
   background-color: white;
   background: linear-gradient(#7682a3, #9574c2);
-  padding: 24px;
-  width: 100%;
-  height: 100%;
   display: flex;
   justify-items: center;
 }

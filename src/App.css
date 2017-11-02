@@ -9,3 +9,8 @@
 *:focus {
   outline: none;
 }
+
+.column .col-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
