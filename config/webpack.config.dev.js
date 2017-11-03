@@ -217,6 +217,12 @@ module.exports = {
   plugins: [
     new DashboardPlugin(),
     new BundleAnalyzerPlugin(),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: "commons",
+      // (the commons chunk name)
+      filename: "commons.js",
+      // (the filename of the commons chunk)
+    }),
     // Makes some environment variables available in index.html.
     // The public URL is available as %PUBLIC_URL% in index.html, e.g.:
     // <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
